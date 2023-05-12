@@ -1,0 +1,7 @@
+# gauge substituion file
+
+file db/gauge.db {
+  pattern { G }
+    { G1 }
+    { G2 }	
+}

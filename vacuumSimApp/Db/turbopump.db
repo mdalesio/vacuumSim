@@ -1,0 +1,12 @@
+record(calc, "$(P):Pwr-Sts") {
+  field(VAL, "0")
+  field(CALC, "A")
+  field(INPA, "$(P):Pwr-Cmd")
+}
+
+record(bi, "$(P):Pwr-Cmd") {
+  field(VAL, "0")
+  field(FLNK, "$(P):Pwr-Sts")
+  field(ZNAM, "Power Off")
+  field(ONAM, "Power On")
+}

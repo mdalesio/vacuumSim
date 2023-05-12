@@ -1,0 +1,9 @@
+# ignore all products of make
+bin/
+db/
+dbd/
+include/
+iocBoot/
+lib/
+
+/**/O.*
