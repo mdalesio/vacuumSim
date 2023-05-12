@@ -1,0 +1,3 @@
+record(ai, "$(G):P") {
+  field(VAL, "10")
+}

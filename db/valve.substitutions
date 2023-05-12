@@ -1,0 +1,7 @@
+# valve substituion file
+
+file db/valve.db {
+  pattern { V }
+    { V1 }
+    { V2 }	
+}

@@ -1,0 +1,12 @@
+record(calc, "$(V):Pos-Sts") {
+  field(VAL, "0")
+  field(CALC, "A")
+  field(INPA, "$(V):Pos-Cmd")
+}
+
+record(bi, "$(V):Pos-Cmd") {
+  field(VAL, "0")
+  field(FLNK, "$(V):Pos-Sts")
+  field(ZNAM, "Pos Closed")
+  field(ONAM, "Pos Open")
+}
