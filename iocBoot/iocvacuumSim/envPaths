@@ -1,3 +1,0 @@
-epicsEnvSet("IOC","iocvacuumSim")
-epicsEnvSet("TOP","/home/user/vacuumSim")
-epicsEnvSet("EPICS_BASE","/home/user/vacuumSim/../build-epics/epics-base")

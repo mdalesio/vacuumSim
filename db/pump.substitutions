@@ -1,6 +1,0 @@
-# pump substitutions file
-
-file db/turbopump.db {
-    pattern { P, V1, V2, G1, G2 }
-        { P, V1, V2, G1, G2 }
-}
